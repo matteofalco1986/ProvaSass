@@ -1,0 +1,15 @@
+@import "abstract/variables";
+@import "bootstrap/bootstrap.scss";
+
+body {
+    background-color: $colore2;
+}
+
+.row {
+    justify-content: space-evenly;
+    
+    .card {
+        padding: 0px;
+        margin-bottom: 30px;
+    }
+}
